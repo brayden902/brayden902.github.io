@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+html{
+    background-color: rgb(119, 119, 119);
+}
+
+/* Nav bar */
+nav {
+	width: 25%;
+	float: left;
+	margin: 6% 2% 0% 0%;
+}
+
+nav ul li {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 0.8em;
+    
+}
+
+nav ul li a {
+	color: lightgreen;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 8%;
+}
+nav ul li a:visited {
+	color: lightgreen;
+}
+nav ul li a:hover {
+	background-color: #222;
+	color: white;
+}
+nav ul li a:focus {
+	outline: thin dotted;
+}
+nav ul li a:hover, nav ul li a:active {
+	outline: 0;
+}
+
+
+
+
+nav ul li {
+	display: table-cell;
+	width: 15%;
+	text-align: center;
+	margin-right: 2%;
+	border: 3px solid lightgreen;
+	border-collapse: collapse;
+}
+nav ul li a {
+	margin-bottom: 0;
+}
+nav {
+	display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: none;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li:last-of-type {
+	margin-right: 0%;
+}
+
+
+p{
+    float: left;
+    width: 25%;
+}
+
+img{
+ float: right;
+ width: 25%
+}
+
+#logo {
+    width: 20%;
+    height: 20%;
+}
+
+#blue {
+    width: 25%;
+    height: 25%;
+    float: left;
+}
+
+#note {
+    width: 25%;
+    height: 25%;
+}
+
+#demon{
+    width: 25%;
+    height: 25%;
+    }
+
+    @media (max-aspect-ratio: 1/1){
+        .content {
+            width: 100%;
+            background-repeat: no-repeat;
+        }
+    
+    }
